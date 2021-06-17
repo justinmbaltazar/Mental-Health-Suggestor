@@ -1,1 +1,1 @@
-# Mental-Health-Suggestor
+# MentalHealthSuggestor
