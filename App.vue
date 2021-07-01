@@ -1,45 +1,40 @@
 <template>
   <div id="app">
-    <amplify-chatbot :chatbotConfig="chatbotConfig"></amplify-chatbot>
+    <router-view/>
   </div>
 </template>
 
-<script>
-
-import {Interactions} from 'aws-amplify';
-export default {
-  name: 'App',
-  data: () => ({
-    chatbotConfig:{
-      bot: "OrderFlowers_dev",
-      clearComplete: false
-    }
-  }), 
-  mounted(){
-    Interactions.onComplete("OrderFlowers_dev", this.handleComplete);
-  },
-  methods:{
-    handleComplete(err,confirmation){
-      if(err){
-        alert(err);
-        return;
-      }
-      alert(JSON.stringify(confirmation));
-    }
-  }
-
-  }
   
+<style lang="scss">
+@import "@/global-styles/colors.scss";
+@import "@/global-styles/typography.scss";
 
-</script>
-
-<style>
+body{
+  background: white;
+  border-width: 30px;
+  border-style: solid;
+  border-color: $light-purple;
+  
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: $system-font-family;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 </style>
