@@ -12,7 +12,7 @@
     </div>
     <div class="paragraph3">
       <p class="Percentage">39%</p>
-      <p class="Text">of the LGBTQ population has reportd having a mental illnes in the past year.</p>
+      <p class="Text">of the LGBTQ population has reportd having a mental illness in the past year.</p>
     </div>
     </div>
     <div class="container">
@@ -152,6 +152,8 @@ export default {
     cursor:pointer;
   
   }
+  
+  
 }
 
 .borderextender{
