@@ -1,2 +1,2 @@
 # MentalHealthSuggestor
-Default description
+Default description.
