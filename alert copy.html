@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome</title>
+        <script 
+        src = "https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"></script> 
+        <link href=“https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap” rel=“stylesheet”>
+        <link rel="stylesheet" href="a_styles.css">
+    </head>
+    <body>
+        <a class="btn" onclick="popupToggle();">Login in!</a>
+        <div id="popup">
+            <div class="content">
+                <h2>nice to meet you!</h2>
+                <h4>what can evexia address you by?</h4>
+                <div class="inputBox">
+                    <input type="email" placeholder="Enter name here">
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="next" class="btn">
+                </div>
+                
+            </div>
+            <a class="close">
+                <img src="cancel.png"style="width:1em; height:1em;" onclick="popupToggle();">
+            </a>
+        </div>
+        <script>
+            function popupToggle(){
+                const popup = document.getElementById('popup');
+                popup.classList.toggle('active');
+                }
+        </script>
+    </body>
+</html>
