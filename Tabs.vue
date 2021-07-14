@@ -44,27 +44,37 @@ export default {
 @import "@/global-styles/typography.scss";
 .tabs {
   padding-top: 7rem;
-  border-bottom: 2px solid $purple;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .tabs-details {
-  padding: 10px;
+  padding: 1px;
+  background-color: $purple;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgb(175, 174, 174), 0px 0px 10px 3px $light-purple;
 }
 
 ul {
   display: flex;
   padding: 0;
   list-style: none;
+  margin: 0px;
 
   li {
-    margin-left: 70px;
+    margin-left: 0px;
     margin-right: 50px;
   }
 
   .nav-item {
     cursor: pointer;
     color: $black;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     &:hover {
       color: $purple;
     }
@@ -73,7 +83,7 @@ ul {
       //Need to make bottom touch line
       color: $white;
       background-color: $purple;
-      border-top-left-radius: 10px;
+      border-radius: 6px;
       //   padding-left: 15px;
       //   padding-right: 15px;
     }
