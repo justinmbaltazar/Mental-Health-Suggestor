@@ -130,6 +130,7 @@ form{
 
 .btn:hover{
     background-color: rgb(203, 162, 250);
+    letter-spacing: 4px;
 }
 
 .social-text{
@@ -267,6 +268,83 @@ form{
     z-index: 2;
     opacity: 1;
 }
+
+#popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: #fff;
+    width: 450px;
+    padding: 50px 50px 50px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .08);
+    transition: 1s;
+    visibility: hidden;
+}
+
+#popup.active{
+    visibility: visible;
+    top: 50%
+}
+
+#popup .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#popup .content h2{
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(165, 85, 240);
+    margin: 20px 0 10px;
+
+}
+
+#popup .content h4{
+    font-size: 17px;
+    color:rgb(162, 168, 173);
+}
+
+#popup .content .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+#popup .content .inputBox input{
+    width: 60vh;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .02);
+}
+
+#popup .content .inputBox input[type="submit"]{
+    background: rgb(165, 85, 240);
+    color: #fff;
+    border: none;
+}
+
+.close{
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
 
 @media(max-width:870px){
     .container{
