@@ -1,23 +1,17 @@
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container");
-const popup = document.getElementById('popup');
-const login = document.querySelector('#login_btn');
+const image = document.querySelector('.image');
+const hover = document.querySelector('.hover');
+const modal = document.querySelector('.modal');
+const close = document.querySelector('.close');
 
-
-sign_up_btn.addEventListener('click', () => {
-    container.classList.add("sign-up-mode");
-});
-
-sign_in_btn.addEventListener('click', () => {
-    container.classList.remove("sign-up-mode");
-});
-
-function popupToggle(){
-    popup.classList.toggle('active');
+function show(){
+    hover.classList.add('active');
+    modal.classList.add('show');
 }
 
-login.addEventListener('mousedown', () => {
-    popupToggle();
-});
-    
+function hide(){
+    hover.classList.remove('active');
+    modal.classList.remove('show');
+}
+
+image.addEventListener('click', show);
+close.addEventListener('click', hide);
