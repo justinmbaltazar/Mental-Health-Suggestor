@@ -107,7 +107,7 @@ form{
     line-height: 1;
     font-weight: 600;
     font-size: 1.1rem;
-    color: black;
+    color: #fff;
 }
 
 .input-field input::placeholder{
