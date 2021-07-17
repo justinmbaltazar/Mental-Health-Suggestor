@@ -20,7 +20,7 @@ body{
 .card{
     position: relative;
     width: 1000px;
-    height: 600px;
+    height: 610px;
     background-color: rgb(255, 255, 255) ;
     border-radius: 5px;
     box-shadow: 0 5px 15px 1px rgba(38, 3, 41, 0.1);
@@ -30,7 +30,7 @@ body{
     content: '';
     position: absolute;
     width: 35%;
-    height: 45%;
+    height: 40%;
     top: 0;
     left: 650px;
     background-image:linear-gradient(to top, #00ffff, #3366ff);
@@ -39,80 +39,91 @@ body{
 
 .like-button{
     position: absolute;
-    right: 13rem;
+    right: 17rem;
     display: flex;
     height: 265px;
-    bottom: 265px;
-
+    bottom: 263px;
+    color: #fff;
 }
 
 .like-text{
     position: absolute;
-    right: 7rem;
+    right: 195px;
     display: flex;
     height: 265px;
-    bottom: 265px;
+    bottom: 268px;
+    color: #fff;
 }
 
 .star-button{
     position: absolute;
-    right: 13rem;
+    right: 17rem;
     display: flex;
     height: 265px;
-    bottom: 230px;
+    bottom: 208px;
+    color: #fff;
 }
 
 .star-text{
     position: absolute;
-    right: 7rem;
+    right: 80px;
     display: flex;
     height: 265px;
-    bottom: 230px;
+    bottom: 215px;
+    color: #fff;
 }
 
 .comment-button{
     position: absolute;
-    right: 13rem;
+    right: 17rem;
     display: flex;
-    height: 265px;
-    bottom: 210px;
+    height: 270px;
+    bottom: 151px;
+    color: #fff;
 }
 
 .comment-text{
     position: absolute;
-    right: 7rem;
+    right: 170px;
     display: flex;
-    height: 265px;
-    bottom: 210px;
+    height: 270px;
+    bottom: 158px;
+    color: #fff;
 }
 
-.mood:before{
-    content: '';
+
+
+.mood-image{
     position: absolute;
-    width: 50%;
-    height: 55%;
-    top: 250px;
-    left: 1rem;
-    background-color:springgreen;
-    clip-path: inset(20px 20px 20px 20px round 15px);
+    left: 5rem;
+    top: 288px;
 }
 
-.activity:before{
-    content: '';
+.mood-content{
     position: absolute;
-    width: 50%;
-    height: 45%;
-    top: 300px;
-    right: 1rem;
-    background-color:rgb(251, 255, 5);
-    clip-path: inset(20px 20px 20px 20px round 15px);
+    left: 13rem;
+    bottom: 324px;
+}
+
+
+
+.activity-image{
+    position: absolute;
+    right: 2rem;
+    top: 290px;
+}
+
+.activity-content{
+    position: absolute;
+    right: 11rem;
+    bottom: 324px;
 }
 
 .card:before{
     content: '';
     position: absolute;
     width: 65%;
-    height: 45%;
+    height: 40%;
     top: 0;
     left: 0;
     background-image: linear-gradient(to top, #e000fe, #924ffe);
@@ -128,8 +139,8 @@ body{
 .mail{
     background: transparent;
     position: absolute;
-    top: 1.2rem;
-    right: 2rem;
+    top: 1.4rem;
+    right: 34px;
     font-size: 1.5rem;
     color: #fff;
     opacity: .6;
@@ -192,10 +203,6 @@ body{
     font-size: 1.2rem;
     opacity: .8;
     color: #fff;
-}
-
-.content{
-    position: absolute;
 }
 
 .modal{
