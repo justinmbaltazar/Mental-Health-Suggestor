@@ -14,13 +14,46 @@
     <div id="top"></div>
     <div id="bottom"></div>
 
-    <div class="app">
-        <Header/>
+    <div class="app">  
+    
+     
+      <!--<Header/>-->  
+     
+
 
       <!-- Put a box on top of navbar-->
-  
+        <nav class="navbar navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+              <img src="@/assets/Group 16.png" />
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">home</a></li>
 
-      <div class="row content">
+              <li class="active"><a href="#">resources</a></li>
+              <li><a href="#">chat</a></li>
+              <li>
+                <a class="number" href="#"><u>+1-800-273-TALK</u></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+   <div class="row content">
         <div class="wrapper">
           <div id="Resources">Resources</div>
         
@@ -81,8 +114,8 @@
 
 
         <article>
-          <header class="tabs">
-            <ul>
+          <div class="tabs">
+            <div class= "ultabs">
               <li v-for="(tab, index) in tabs" :key="index">
                 <div
                   class="nav-item"
@@ -93,8 +126,8 @@
                   {{ tab.name }}
                 </div>
               </li>
-            </ul>
-          </header>
+            </div>
+          </div>
           <section class="tabs-details">
             <slot></slot>
           </section>
@@ -179,7 +212,7 @@
 </template>
 
 <style lang="scss">
-@import "@/global-styles/colors.scss";
+@import "@/global-styles/resource.scss";
 @import "@/global-styles/typography.scss";
 *{
   padding: 0;
@@ -187,7 +220,7 @@
 }
 body {
   background-color: $white;
-  border-color: white;
+  border-color: $purple;
 }
 h1 {
   @include heading-1($black);
@@ -211,9 +244,10 @@ a {
 }
 li {
   @include medium-text($black);
-  margin-right: 70px;
-  &.active {
+  margin-right: 200px;
+  &.active{
     border-bottom: 3px solid $light-purple;
+
   }
 }
 #top,
@@ -310,8 +344,34 @@ li {
   //height: 667px;
 }
 /* Set white background color and 100% height */
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0px;
+  padding-bottom: 0rem;
+  margin-top: 0px;
+  padding-top: 8px;
+  box-shadow: 0px 0px 1px rgb(209, 209, 209);
+  height: 70px;
+  //border-top: 15px solid #a68bd1;
+  border-radius: 0px;
+  background-color: $white;
+  font-family: $font-family;
+  
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-text {
+  color: $white;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: $white;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 667px;
+}
+/* Set white background color and 100% height */
 .sidenav {
-  //padding-top: 20px;
+  padding-top: 20px;
   background-color: $white;
   height: 100%;
 }
@@ -349,22 +409,18 @@ li {
   border-radius: 5px;
   box-shadow: 10px 10px 5px rgb(175, 174, 174), 0px 0px 10px 3px $light-purple;
 }
-ul {
-  display: inline-flex;
-  //grid-template-columns: repeat(auto-fit,minmax(150px,1fr) );
-
-  //padding: 0;
+.ultabs{
+  display: flex;
+  padding: 0;
   list-style: none;
-  //margin: 0;
-}
+  margin: 0;
   li {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0;
     padding: 0;
   }
-
-.nav-item {
+  .nav-item {
     cursor: pointer;
     color: $black;
     margin: 0;
@@ -373,14 +429,14 @@ ul {
     padding-right: 20px;
     padding-bottom: 10px;
     border-radius: 6px;
-    border: 1.5px solid $purple;
+    border: 1.5px solid white;
     //border: 2px solid black;
     &:hover {
       color: $purple;
     }
-    //&.healthcare {
-      //border: 2px solid $purple;
-   // }
+    &.healthcare {
+      border: 2px solid $purple;
+    }
     &.is-active {
       //Need to make bottom touch line
       color: $white;
@@ -390,6 +446,7 @@ ul {
       //   padding-right: 15px;
     }
   }
+}
 
 .wrapper {
   //position: relative;
@@ -412,7 +469,6 @@ ul {
     display: flex;
     grid-template-columns: 15% 85%;
     //padding: 0 .4rem;
-
 }
 .search {
   border: 0px solid;
@@ -439,7 +495,6 @@ ul {
   background-color: rgb(240, 240, 245);
   transition-duration: 420ms;
 }
-
 #first,
 #second,
 #third {
@@ -449,13 +504,11 @@ ul {
   min-height: 100px;
   //margin-top: 15px;
 }
-
 .well-container{
   //background-color: blue;
   display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(auto-fit,minmax(150px,1fr) );
-
   
 }
 .well {
@@ -468,8 +521,6 @@ ul {
   margin-top: 40px;
   //display: grid;
   //grid-template-columns: repeat(auto-fit,minmax(150px,1fr) );
-
-
   //width: 19.1%;
   //height: 18%;
   margin-bottom: 0;
@@ -502,21 +553,23 @@ ul {
 
 <script>
 import Tab from "@/components/Tab";
-import Header from "@/components/Header.vue"
+//import Header from "@/components/Header.vue"
 //import Tabs from "@/components/Tabs";
 export default {
   name: "App",
+  components: {
+    Tab,
+    //Header
+    
+    
+    //Tabs,
+  },
   data: () => {
     return {
       tabs: [],
     };
   },
-  components: {
-    Tab,
-    Header,
-    
-    //Tabs,
-  },
+  
   methods: {
     selectTab(selectedTab) {
       this.tabs.forEach((tab) => {
