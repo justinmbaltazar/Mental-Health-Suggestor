@@ -38,7 +38,9 @@
 
               <li class="active"><a href="#">resources</a></li>
               <li><a href="#">chat</a></li>
-              <li><a class="number" href="#">+1-800-273-TALK</a></li>
+              <li>
+                <a class="number" href="#"><u>+1-800-273-TALK</u></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -52,17 +54,91 @@
             src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K"
           />
           <input class="search" placeholder="search" type="text" />
-          <img
-            class="clear-icon"
-            src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxLjk3NiA1MS45NzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjk3NiA1MS45NzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8cGF0aCBkPSJNNDQuMzczLDcuNjAzYy0xMC4xMzctMTAuMTM3LTI2LjYzMi0xMC4xMzgtMzYuNzcsMGMtMTAuMTM4LDEwLjEzOC0xMC4xMzcsMjYuNjMyLDAsMzYuNzdzMjYuNjMyLDEwLjEzOCwzNi43NywwICAgQzU0LjUxLDM0LjIzNSw1NC41MSwxNy43NCw0NC4zNzMsNy42MDN6IE0zNi4yNDEsMzYuMjQxYy0wLjc4MSwwLjc4MS0yLjA0NywwLjc4MS0yLjgyOCwwbC03LjQyNS03LjQyNWwtNy43NzgsNy43NzggICBjLTAuNzgxLDAuNzgxLTIuMDQ3LDAuNzgxLTIuODI4LDBjLTAuNzgxLTAuNzgxLTAuNzgxLTIuMDQ3LDAtMi44MjhsNy43NzgtNy43NzhsLTcuNDI1LTcuNDI1Yy0wLjc4MS0wLjc4MS0wLjc4MS0yLjA0OCwwLTIuODI4ICAgYzAuNzgxLTAuNzgxLDIuMDQ3LTAuNzgxLDIuODI4LDBsNy40MjUsNy40MjVsNy4wNzEtNy4wNzFjMC43ODEtMC43ODEsMi4wNDctMC43ODEsMi44MjgsMGMwLjc4MSwwLjc4MSwwLjc4MSwyLjA0NywwLDIuODI4ICAgbC03LjA3MSw3LjA3MWw3LjQyNSw3LjQyNUMzNy4wMjIsMzQuMTk0LDM3LjAyMiwzNS40NiwzNi4yNDEsMzYuMjQxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="
-          />
         </div>
 
-        <Tabs>
-          <Tab name="activities" class="activities" selected="true">
-            <img scr="@/assets/Netflix.jpg" />
+        <span>
+          <div class="well" id="first">
+            <h2>
+              benefits of exercise on mental health
+              <h4>
+                <u
+                  ><a
+                    class="inWell"
+                    href="https://www.helpguide.org/articles/healthy-living/the-mental-health-benefits-of-exercise.htm"
+                    target="_blank"
+                    >read blog</a
+                  ></u
+                >
+              </h4>
+            </h2>
+          </div>
+          <div class="well" id="second">
+            <h2>
+              moderation - why do we do what we do
+              <h4>
+                <u
+                  ><a
+                    class="inWell"
+                    href="https://healthyeating.sfgate.com/importance-moderation-1990.html"
+                    target="_blank"
+                    >read blog</a
+                  ></u
+                >
+              </h4>
+            </h2>
+          </div>
+          <div class="well" id="third">
+            <h2>
+              31 tips to boost your mental health
+              <h4>
+                <u
+                  ><a
+                    class="inWell"
+                    href="https://www.mhanational.org/31-tips-boost-your-mental-health"
+                    target="_blank"
+                    >read blog</a
+                  ></u
+                >
+              </h4>
+            </h2>
+          </div></span
+        >
+        <article>
+          <header class="tabs">
+            <ul>
+              <li v-for="(tab, index) in tabs" :key="index">
+                <div
+                  class="nav-item"
+                  :id="{ name: tab.name }"
+                  :class="{ 'is-active': tab.isActive }"
+                  @click="selectTab(tab)"
+                >
+                  {{ tab.name }}
+                </div>
+              </li>
+            </ul>
+          </header>
+          <section class="tabs-details">
+            <slot></slot>
+          </section>
+        </article>
+
+        <Tabs class="tabs">
+          <Tab name="activities" id="activities" selected="true">
+            <a href="https://www.netflix.com/" target="_blank">
+              <img src="@/assets/Netflix.jpg" id="Netflix"
+            /></a>
+            <a
+              href="https://www.reidhealth.org/blog/mental-health"
+              target="_blank"
+            >
+              <img src="@/assets/StressBall.png" id="StressBall"
+            /></a>
+            <a href="https://www.minecraft.net/en-us" target="_blank">
+              <img src="@/assets/Minecraft.jpg" id="Minecraft"
+            /></a>
           </Tab>
-          <Tab name="healthcare">
+          <Tab name="healthcare" id="healthcare">
             <h3>healthcare</h3>
             <div id="Suicide Prevention">
               <h3>Suicide Prevention</h3>
@@ -95,17 +171,19 @@
             </div>
           </Tab>
 
-          <Tab name="crowdfunding">
+          <Tab name="research" id="research"><h3>research</h3></Tab>
+
+          <Tab name="crowdfunding" id="crowdfunding">
             <h3>research</h3>
             <p>Tokyo is the capital of Japan.</p>
           </Tab>
 
-          <Tab name="hotlines">
+          <Tab name="hotlines" id="hotlines">
             <h3>facts</h3>
             <p>Info.</p>
           </Tab>
 
-          <Tab name="facts">
+          <Tab name="facts" id="facts">
             <h3>hotlines</h3>
             <p>Numbers.</p>
           </Tab>
@@ -137,10 +215,22 @@ h1 {
   font-family: $font-family;
 }
 
+h2 {
+  @include heading-2($white);
+}
+
 h3 {
   @include heading-3($black);
-  padding-top: 2rem;
+  padding-top: 0;
   padding-bottom: 2rem;
+}
+
+h4 {
+  @include heading-4($white);
+  border: 2px solid $white;
+  border-radius: 6px;
+  width: 60%;
+  margin-left: 5rem;
 }
 
 p {
@@ -152,6 +242,12 @@ a {
 
   &.number {
     color: $purple;
+  }
+  &.inWell {
+    color: $white;
+    &:hover {
+      color: $black;
+    }
   }
 }
 
@@ -169,7 +265,7 @@ li {
 #bottom,
 #left,
 #right {
-  background: #c5c5ff; //Prob diff color
+  background: #c7b9ff; //Prob diff color
   margin: 0;
   padding: 0;
 }
@@ -207,19 +303,23 @@ li {
   font-family: $font-family;
   font-weight: bold;
   //text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
-  margin-left: 5.6rem;
+  margin-left: 60px;
 }
 
-//Use for each tab
-.activities {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#Netflix {
+  width: 30%;
 }
 
+#StressBall {
+  margin-left: 65px;
+  width: 30%;
+}
+
+#Minecraft {
+  margin-left: 65px;
+  margin-right: 0;
+  width: 30%;
+}
 .app {
   font-family: $font-family;
   -webkit-font-smoothing: antialiased;
@@ -250,7 +350,7 @@ li {
   padding-bottom: 0rem;
   margin-top: 0px;
   padding-top: 8px;
-  box-shadow: 0px 0px 5px black;
+  box-shadow: 0px 0px 1px rgb(209, 209, 209);
   height: 70px;
 
   //border-top: 15px solid #a68bd1;
@@ -280,8 +380,104 @@ li {
   height: 100%;
 }
 
+.tabs {
+  padding-top: 4rem;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.tabs-details {
+  margin: 0;
+  padding: 0;
+  // padding: 1px;
+  // background-color: $purple;
+  // margin-left: 60px;
+  // margin-right: 60px;
+  // margin-bottom: 0;
+  // border-radius: 5px;
+  // box-shadow: 10px 10px 5px rgb(175, 174, 174), 0px 0px 10px 3px $light-purple;
+}
+
+#activities,
+#healthcare,
+#research,
+#crowdfunding,
+#hotlines,
+#facts {
+  background-color: $purple;
+  margin-top: -20px;
+  padding: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 28px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgb(175, 174, 174), 0px 0px 10px 3px $light-purple;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+
+  li {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .nav-item {
+    cursor: pointer;
+    color: $black;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    border: 1.5px solid $purple;
+    //border: 2px solid black;
+    &:hover {
+      color: $purple;
+    }
+    &.healthcare {
+      border: 2px solid $purple;
+    }
+
+    &.is-active {
+      //Need to make bottom touch line
+      color: $white;
+      background-color: $purple;
+      border-radius: 6px;
+      //   padding-left: 15px;
+      //   padding-right: 15px;
+    }
+  }
+}
+
+#first {
+  margin-left: 60px;
+}
+#second,
+#third {
+  margin-left: 140px;
+}
+
 .well {
-  visibility: hidden;
+  //visibility: hidden;
+  border-color: blue;
+  border-radius: 5px;
+  box-shadow: 4px 5px 5px rgb(175, 174, 174);
+  background-color: $purple;
+  margin-top: 20px;
+  display: inline-flex;
+  width: 19.1%;
+  height: 18%;
+
+  margin-bottom: 0;
 }
 .wrapper {
   position: relative;
@@ -294,9 +490,9 @@ li {
   border: 0px solid;
   border-radius: 10px;
   height: 30px;
-  width: 30%;
+  width: 28.5%;
   padding: 2px 23px 2px 30px;
-  margin-left: 73.6rem;
+  margin-left: 65rem;
   margin-top: 2.85rem;
   outline: 0;
   background-color: #e0e0e0f3;
@@ -318,15 +514,15 @@ li {
 
 .search-icon {
   position: absolute;
-  top: 3.7rem;
-  left: 102.6rem;
+  top: 3.6rem;
+  left: 96rem;
   width: 16px;
 }
 
 .clear-icon {
   position: absolute;
   top: 35px;
-  right: 36px;
+  right: 12.5rem;
   width: 17px;
   cursor: pointer;
   //visibility: hidden;
@@ -345,12 +541,27 @@ li {
 
 <script>
 import Tab from "@/components/Tab";
-import Tabs from "@/components/Tabs";
+//import Tabs from "@/components/Tabs";
 export default {
   name: "App",
+  data: () => {
+    return {
+      tabs: [],
+    };
+  },
   components: {
     Tab,
-    Tabs,
+    //Tabs,
+  },
+  methods: {
+    selectTab(selectedTab) {
+      this.tabs.forEach((tab) => {
+        tab.isActive = tab.name === selectedTab.name;
+      });
+    },
+  },
+  created() {
+    this.tabs = this.$children;
   },
 };
 </script>
