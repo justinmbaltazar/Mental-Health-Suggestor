@@ -43,7 +43,7 @@ export default {
 @import "@/global-styles/colors.scss";
 @import "@/global-styles/typography.scss";
 .tabs {
-  padding-top: 7rem;
+  padding-top: 4rem;
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -65,7 +65,7 @@ ul {
 
   li {
     margin-left: 0px;
-    margin-right: 50px;
+    margin-right: 0px;
   }
 
   .nav-item {
@@ -75,6 +75,8 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
+    border-radius: 6px;
+    border: 2px solid black;
     &:hover {
       color: $purple;
     }

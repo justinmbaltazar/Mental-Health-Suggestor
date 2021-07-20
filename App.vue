@@ -126,66 +126,245 @@
         <Tabs class="tabs">
           <Tab name="activities" id="activities" selected="true">
             <a href="https://www.netflix.com/" target="_blank">
-              <img src="@/assets/Netflix.jpg" id="Netflix"
+              <img src="@/assets/Netflix.png" id="Netflix"
             /></a>
+
             <a
               href="https://www.reidhealth.org/blog/mental-health"
               target="_blank"
             >
               <img src="@/assets/StressBall.png" id="StressBall"
             /></a>
-            <a href="https://www.minecraft.net/en-us" target="_blank">
-              <img src="@/assets/Minecraft.jpg" id="Minecraft"
+
+            <!--Gotta fix link--><a
+              href="http://endeavorga.org/?video-arcade-games-online/"
+              target="_blank"
+            >
+              <img src="@/assets/Arcade.png" id="Arcade"
+            /></a>
+
+            <a
+              href="https://www.portstluciehospitalinc.com/10-journaling-prompts-for-mental-health/"
+              target="_blank"
+            >
+              <img src="@/assets/Journal.png" id="Journal"
+            /></a>
+
+            <a
+              href="https://www.bupa.co.uk/health-information/exercise-fitness/types-of-exercise"
+              target="_blank"
+            >
+              <img src="@/assets/Exercise.png" id="Exercise"
+            /></a>
+
+            <a
+              href="https://www.livekindly.co/7-surprising-ways-cooking-can-boost-your-mental-health/#:~:text=%E2%80%9CCooking%20at%20home%2C%20or%20other,%2C%20themselves%20or%20loved%20ones%2C%E2%80%9D"
+              target="_blank"
+            >
+              <img src="@/assets/Cooking.png" id="Cooking"
             /></a>
           </Tab>
+
           <Tab name="healthcare" id="healthcare">
-            <h3>healthcare</h3>
-            <div id="Suicide Prevention">
-              <h3>Suicide Prevention</h3>
-              <p>
-                <u
-                  ><a
-                    href="https://suicidepreventionlifeline.org/"
-                    target="_blank"
-                    >Suicide Hotline</a
-                  ></u
-                >
-              </p>
-              <p>
-                <u
-                  ><a href="https://www.stopbullying.gov/" target="_blank"
-                    >StopBullying.gov</a
-                  ></u
-                >
-              </p>
-            </div>
-            <div id="publication">
-              <h3>Counseling</h3>
-              <p>
-                <u
-                  ><a href="https://www.crisistextline.org/" target="_blank"
-                    >Crisis Text Line</a
-                  ></u
-                >
-              </p>
-            </div>
+            <a href="https://www.teladoc.com/therapy/" target="_blank">
+              <img src="@/assets/healthcare.png" id="HealthCare"
+            /></a>
+
+            <a href="https://www.teladoc.com/therapy/" target="_blank">
+              <img src="@/assets/healthcare.png" id="HealthCare2"
+            /></a>
+
+            <a href="https://www.teladoc.com/therapy/" target="_blank">
+              <img src="@/assets/healthcare.png" id="HealthCare2"
+            /></a>
+
+            <a href="https://www.teladoc.com/therapy/" target="_blank">
+              <img src="@/assets/healthcare.png" id="HealthCare"
+            /></a>
+
+            <a href="https://www.teladoc.com/therapy/" target="_blank">
+              <img src="@/assets/healthcare.png" id="HealthCare2"
+            /></a>
+
+            <a href="https://www.teladoc.com/therapy/" target="_blank">
+              <img src="@/assets/healthcare.png" id="HealthCare2"
+            /></a>
           </Tab>
 
-          <Tab name="research" id="research"><h3>research</h3></Tab>
+          <Tab name="research" id="research">
+            <a
+              href="https://onlinelibrary.wiley.com/journal/17461405"
+              target="_blank"
+            >
+              <img src="@/assets/research.png" id="Research"
+            /></a>
+
+            <a
+              href="https://onlinelibrary.wiley.com/journal/17461405"
+              target="_blank"
+            >
+              <img src="@/assets/research.png" id="Research2"
+            /></a>
+
+            <a
+              href="https://onlinelibrary.wiley.com/journal/17461405"
+              target="_blank"
+            >
+              <img src="@/assets/research.png" id="Research2"
+            /></a>
+
+            <a
+              href="https://onlinelibrary.wiley.com/journal/17461405"
+              target="_blank"
+            >
+              <img src="@/assets/research.png" id="Research"
+            /></a>
+
+            <a
+              href="https://onlinelibrary.wiley.com/journal/17461405"
+              target="_blank"
+            >
+              <img src="@/assets/research.png" id="Research2"
+            /></a>
+
+            <a
+              href="https://onlinelibrary.wiley.com/journal/17461405"
+              target="_blank"
+            >
+              <img src="@/assets/research.png" id="Research2"
+            /></a>
+          </Tab>
 
           <Tab name="crowdfunding" id="crowdfunding">
-            <h3>research</h3>
-            <p>Tokyo is the capital of Japan.</p>
+            <a
+              href="https://www.gofundme.com/c/blog/mental-health-fundraising"
+              target="_blank"
+            >
+              <img src="@/assets/crowdfunding.png" id="Crowdfunding"
+            /></a>
+
+            <a
+              href="https://www.gofundme.com/c/blog/mental-health-fundraising"
+              target="_blank"
+            >
+              <img src="@/assets/crowdfunding.png" id="Crowdfunding2"
+            /></a>
+
+            <a
+              href="https://www.gofundme.com/c/blog/mental-health-fundraising"
+              target="_blank"
+            >
+              <img src="@/assets/crowdfunding.png" id="Crowdfunding2"
+            /></a>
+
+            <a
+              href="https://www.gofundme.com/c/blog/mental-health-fundraising"
+              target="_blank"
+            >
+              <img src="@/assets/crowdfunding.png" id="Crowdfunding"
+            /></a>
+
+            <a
+              href="https://www.gofundme.com/c/blog/mental-health-fundraising"
+              target="_blank"
+            >
+              <img src="@/assets/crowdfunding.png" id="Crowdfunding2"
+            /></a>
+
+            <a
+              href="https://www.gofundme.com/c/blog/mental-health-fundraising"
+              target="_blank"
+            >
+              <img src="@/assets/crowdfunding.png" id="Crowdfunding2"
+            /></a>
           </Tab>
 
           <Tab name="hotlines" id="hotlines">
-            <h3>facts</h3>
-            <p>Info.</p>
+            <a
+              href="https://www.asafeplaceonline.com/?gclid=Cj0KCQjwub-HBhCyARIsAPctr7xRVAiSs8fVR_n8QFSbcni68MT2uQBpyHsd0B-ROHZ2qyyROuNUgrsaAh_QEALw_wcB"
+              target="_blank"
+            >
+              <img src="@/assets/hotlines.png" id="Hotlines"
+            /></a>
+
+            <a
+              href="https://www.asafeplaceonline.com/?gclid=Cj0KCQjwub-HBhCyARIsAPctr7xRVAiSs8fVR_n8QFSbcni68MT2uQBpyHsd0B-ROHZ2qyyROuNUgrsaAh_QEALw_wcB"
+              target="_blank"
+            >
+              <img src="@/assets/hotlines.png" id="Hotlines2"
+            /></a>
+
+            <a
+              href="https://www.asafeplaceonline.com/?gclid=Cj0KCQjwub-HBhCyARIsAPctr7xRVAiSs8fVR_n8QFSbcni68MT2uQBpyHsd0B-ROHZ2qyyROuNUgrsaAh_QEALw_wcB"
+              target="_blank"
+            >
+              <img src="@/assets/hotlines.png" id="Hotlines2"
+            /></a>
+
+            <a
+              href="https://www.asafeplaceonline.com/?gclid=Cj0KCQjwub-HBhCyARIsAPctr7xRVAiSs8fVR_n8QFSbcni68MT2uQBpyHsd0B-ROHZ2qyyROuNUgrsaAh_QEALw_wcB"
+              target="_blank"
+            >
+              <img src="@/assets/hotlines.png" id="Hotlines"
+            /></a>
+
+            <a
+              href="https://www.asafeplaceonline.com/?gclid=Cj0KCQjwub-HBhCyARIsAPctr7xRVAiSs8fVR_n8QFSbcni68MT2uQBpyHsd0B-ROHZ2qyyROuNUgrsaAh_QEALw_wcB"
+              target="_blank"
+            >
+              <img src="@/assets/hotlines.png" id="Hotlines2"
+            /></a>
+
+            <a
+              href="https://www.asafeplaceonline.com/?gclid=Cj0KCQjwub-HBhCyARIsAPctr7xRVAiSs8fVR_n8QFSbcni68MT2uQBpyHsd0B-ROHZ2qyyROuNUgrsaAh_QEALw_wcB"
+              target="_blank"
+            >
+              <img src="@/assets/hotlines.png" id="Hotlines2"
+            /></a>
           </Tab>
 
           <Tab name="facts" id="facts">
-            <h3>hotlines</h3>
-            <p>Numbers.</p>
+            <a
+              href="https://www.mentalhealth.gov/basics/mental-health-myths-facts"
+              target="_blank"
+            >
+              <img src="@/assets/facts.png" id="Facts"
+            /></a>
+
+            <a
+              href="https://www.mentalhealth.gov/basics/mental-health-myths-facts"
+              target="_blank"
+            >
+              <img src="@/assets/facts.png" id="Facts2"
+            /></a>
+
+            <a
+              href="https://www.mentalhealth.gov/basics/mental-health-myths-facts"
+              target="_blank"
+            >
+              <img src="@/assets/facts.png" id="Facts2"
+            /></a>
+
+            <a
+              href="https://www.mentalhealth.gov/basics/mental-health-myths-facts"
+              target="_blank"
+            >
+              <img src="@/assets/facts.png" id="Facts"
+            /></a>
+
+            <a
+              href="https://www.mentalhealth.gov/basics/mental-health-myths-facts"
+              target="_blank"
+            >
+              <img src="@/assets/facts.png" id="Facts2"
+            /></a>
+
+            <a
+              href="https://www.mentalhealth.gov/basics/mental-health-myths-facts"
+              target="_blank"
+            >
+              <img src="@/assets/facts.png" id="Facts2"
+            /></a>
           </Tab>
         </Tabs>
       </div>
@@ -306,20 +485,39 @@ li {
   margin-left: 60px;
 }
 
-#Netflix {
+#Netflix,
+#StressBall,
+#Arcade,
+#Journal,
+#Exercise,
+#Cooking,
+#HealthCare,
+#HealthCare2,
+#Research,
+#Research2,
+#Crowdfunding,
+#Crowdfunding2,
+#Hotlines,
+#Hotlines2,
+#Facts,
+#Facts2 {
   width: 30%;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+#StressBall,
+#Arcade,
+#Exercise,
+#Cooking,
+#HealthCare2,
+#Research2,
+#Crowdfunding2,
+#Hotlines2,
+#Facts2 {
+  margin-left: 65px;
 }
 
-#StressBall {
-  margin-left: 65px;
-  width: 30%;
-}
-
-#Minecraft {
-  margin-left: 65px;
-  margin-right: 0;
-  width: 30%;
-}
 .app {
   font-family: $font-family;
   -webkit-font-smoothing: antialiased;
