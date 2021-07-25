@@ -94,10 +94,10 @@ img{
 .description{
   margin-top: 20px;
   font-style: normal;
-  font-size: 15px;
+  font-size: 15px; //change it to 23px
   line-height: 18px;
   text-align: left;
-  color: #7C7C7C;
+  color: #7C7C7C; // change to color purple
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
 }
