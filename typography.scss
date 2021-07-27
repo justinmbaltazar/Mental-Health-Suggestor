@@ -19,6 +19,15 @@ $font-Cursive: "Comic Sans MS", "Comic Sans", cursive;
     color: $color;
 }
 
+@mixin heading-2-right($color: $white) {
+    margin:0;
+    padding:0;
+    text-align: right;
+    font-size: 20px;
+    line-height: 26px;
+    color: $color;
+}
+
 @mixin heading-3($color: $white) {
     font-size: 30px;
     line-height: 43px;

@@ -163,6 +163,11 @@
             >
               <img src="@/assets/Cooking.png" id="Cooking"
             /></a>
+
+            <h5>
+              <a href="#" class="More">see more </a>
+              <a href="#" class="More"><img src="@/assets/arrow.png" /></a>
+            </h5>
           </Tab>
 
           <Tab name="healthcare" id="healthcare">
@@ -189,6 +194,11 @@
             <a href="https://www.teladoc.com/therapy/" target="_blank">
               <img src="@/assets/healthcare.png" id="HealthCare2"
             /></a>
+
+            <h5>
+              <a href="#" class="More">see more </a>
+              <a href="#" class="More"><img src="@/assets/arrow.png" /></a>
+            </h5>
           </Tab>
 
           <Tab name="research" id="research">
@@ -233,6 +243,11 @@
             >
               <img src="@/assets/research.png" id="Research2"
             /></a>
+
+            <h5>
+              <a href="#" class="More">see more </a>
+              <a href="#" class="More"><img src="@/assets/arrow.png" /></a>
+            </h5>
           </Tab>
 
           <Tab name="crowdfunding" id="crowdfunding">
@@ -277,6 +292,11 @@
             >
               <img src="@/assets/crowdfunding.png" id="Crowdfunding2"
             /></a>
+
+            <h5>
+              <a href="#" class="More">see more </a>
+              <a href="#" class="More"><img src="@/assets/arrow.png" /></a>
+            </h5>
           </Tab>
 
           <Tab name="hotlines" id="hotlines">
@@ -321,6 +341,11 @@
             >
               <img src="@/assets/hotlines.png" id="Hotlines2"
             /></a>
+
+            <h5>
+              <a href="#" class="More">see more </a>
+              <a href="#" class="More"><img src="@/assets/arrow.png" /></a>
+            </h5>
           </Tab>
 
           <Tab name="facts" id="facts">
@@ -365,9 +390,22 @@
             >
               <img src="@/assets/facts.png" id="Facts2"
             /></a>
+
+            <h5>
+              <a href="#" class="More">see more </a>
+              <a href="#" class="More"><img src="@/assets/arrow.png" /></a>
+            </h5>
           </Tab>
         </Tabs>
       </div>
+    </div>
+
+    <div class="testimonials">
+      <img src="@/assets/Review-Seth.png" id="Seth" />
+      <img src="@/assets/Review-Mary.png" id="Mary" />
+      <img src="@/assets/Review-Jennifer.png" id="Jennifer" />
+      <img src="@/assets/Review-Chat.png" id="Chat" />
+      <img src="@/assets/Review-Chat2.png" id="Chat2" />
     </div>
 
     <!-- <div class="col-sm-1 text-left">
@@ -412,12 +450,24 @@ h4 {
   margin-left: 5rem;
 }
 
+h5 {
+  @include heading-2-right($white);
+  margin-top: 30px;
+}
+
 p {
-  @include medium-text($light-blue);
+  @include heading-2-right($white);
 }
 
 a {
   color: $black;
+
+  &.More {
+    color: $white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 
   &.number {
     color: $purple;
@@ -438,6 +488,39 @@ li {
   &.active {
     border-bottom: 3px solid $light-purple;
   }
+}
+
+#Seth,
+#Mary,
+#Jennifer {
+  margin-top: 30rem;
+  margin-bottom: 100px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#Seth {
+  margin-left: 12rem;
+}
+
+#Mary {
+  margin-left: 15rem;
+}
+
+#Jennifer {
+  margin-left: 15rem;
+}
+
+#Chat {
+  margin-left: 30rem;
+  margin-bottom: 100px;
+  width: 17%;
+}
+
+#Chat2 {
+  margin-left: 35rem;
+  margin-bottom: 100px;
+  width: 17%;
 }
 
 #top,
@@ -609,8 +692,10 @@ li {
   padding: 20px;
   margin-left: 60px;
   margin-right: 60px;
-  margin-bottom: 28px;
-  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   box-shadow: 10px 10px 5px rgb(175, 174, 174), 0px 0px 10px 3px $light-purple;
 }
 
@@ -649,7 +734,10 @@ ul {
       //Need to make bottom touch line
       color: $white;
       background-color: $purple;
-      border-radius: 6px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
       //   padding-left: 15px;
       //   padding-right: 15px;
     }
